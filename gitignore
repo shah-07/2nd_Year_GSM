@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# Derived data (regenerate with scripts)
+frames/
+processed/
+outputs/
+
+# Model files and logs
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx

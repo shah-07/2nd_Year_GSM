@@ -1,0 +1,14 @@
+# Normalise line endings so Windows (CRLF) and Linux/macOS (LF) agree
+* text=auto
+*.csv text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+
+# Never touch photos and videos
+*.jpg binary
+*.JPG binary
+*.jpeg binary
+*.png binary
+*.mp4 binary
+*.mov binary

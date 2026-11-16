@@ -6,14 +6,14 @@ A small dataset and codebase for estimating fabric weight (**GSM**, grams per sq
 
 ## Dataset at a glance
 
-| Item | Details |
-|---|---|
-| Fabrics | 10 samples, `fabric_01` to `fabric_10` |
-| Ground truth | GSM per fabric in `labels.csv` (186 to 197 g/m²) |
-| RGB photos | 20 per fabric, 4032×3024 JPG, taken on 1 Nov 2026 with an iPhone 14 Plus (fabric_02, 03, 05, 06, 07, 09, 10) or an iPhone 15 (fabric_01, 04, 08) |
-| IR photos | 4 to 5 per fabric, 4160×3120 JPG, OPPO A16, fixed 0.08 s exposure at f/2.2, flash off, taken on 15 Nov 2026 in a dark room |
-| IR videos | 1 per fabric, 1920×1080 H.264, about 30 fps, 6 to 9 seconds |
-| Reference photos | `dark/` (dark room, IR off, no fabric) and `ir_no_fabric/` (IR on, no fabric), 5 photos each |
+| Item             | Details                                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fabrics          | 10 samples, `fabric_01` to `fabric_10`                                                                                                           |
+| Ground truth     | GSM per fabric in `labels.csv` (186 to 197 g/m²)                                                                                                 |
+| RGB photos       | 20 per fabric, 4032×3024 JPG, taken on 1 Nov 2026 with an iPhone 14 Plus (fabric_02, 03, 05, 06, 07, 09, 10) or an iPhone 15 (fabric_01, 04, 08) |
+| IR photos        | 5 per fabric, 4160×3120 JPG, OPPO A16, fixed 0.08 s exposure at f/2.2, flash off, taken on 15 Nov 2026 in a dark room                            |
+| IR videos        | 1 per fabric, 1920×1080 H.264, about 30 fps, 6 to 9 seconds                                                                                      |
+| Reference photos | `dark/` (dark room, IR off, no fabric) and `ir_no_fabric/` (IR on, no fabric), 5 photos each                                                     |
 
 ## Folder structure
 
@@ -62,14 +62,14 @@ IR source: the IR LED of a remote control, held at one end with the fabric in fr
 
 Fill these in so the experiment can be repeated:
 
-| Parameter | Value |
-|---|---|
-| Remote model / IR wavelength | TODO |
-| Distance remote to fabric | TODO |
-| Distance fabric to camera | TODO |
-| How the fabric was held or mounted | TODO |
-| Fabric type / composition | TODO |
-| How GSM was measured (sample area, scale precision) | TODO |
+| Parameter                                           | Value |
+| --------------------------------------------------- | ----- |
+| Remote model / IR wavelength                        | TODO  |
+| Distance remote to fabric                           | TODO  |
+| Distance fabric to camera                           | TODO  |
+| How the fabric was held or mounted                  | TODO  |
+| Fabric type / composition                           | TODO  |
+| How GSM was measured (sample area, scale precision) | TODO  |
 
 ## Quick start
 
